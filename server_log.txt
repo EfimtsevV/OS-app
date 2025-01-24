@@ -1,0 +1,14 @@
+('127.0.0.1', 58074): Server started on 127.0.0.1:8082
+('127.0.0.1', 58117): Client connected: ('127.0.0.1', 58116)
+('127.0.0.1', 58118): Connection established with 58116
+('127.0.0.1', 58137): Sent request from 58116: GET_INFO
+('127.0.0.1', 59795): Server started on 127.0.0.1:8082
+('127.0.0.1', 59859): Client connected: ('127.0.0.1', 59858)
+('127.0.0.1', 59860): Connection established with 59858
+('127.0.0.1', 59896): Sent request from 59858: GET_INFO
+('127.0.0.1', 60992): Sent request from 59858: GET_INFO
+('127.0.0.1', 61036): Sent request from 59858: GET_INFO
+('127.0.0.1', 61298): Server started on 127.0.0.1:8082
+('127.0.0.1', 61496): Client connected: ('127.0.0.1', 61495)
+('127.0.0.1', 61497): Connection established with 61495
+('127.0.0.1', 61527): Sent request from 61495: GET_INFO

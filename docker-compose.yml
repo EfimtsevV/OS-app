@@ -1,0 +1,24 @@
+#4 доп задание - докер контейнер для изолированого запуска серверов
+version: '3.8'
+
+services:
+  log_server:
+    build: .
+    container_name: log_server
+    command: python log_server.py
+    ports:
+      - "6000:6000"
+
+  server1:
+    build: .
+    container_name: server1
+    command: python server1.py
+    ports:
+      - "8081:8081"
+
+  server2:
+    build: .
+    container_name: server2
+    command: python server2.py
+    ports:
+      - "8082:8082"
